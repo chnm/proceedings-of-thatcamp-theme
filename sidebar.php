@@ -46,7 +46,8 @@ $subcategories = get_terms( 'category', array('parent' => $parentId, 'hide_empty
                 coauthors(',<br>');
             else:
                 echo the_author_meta('first_name') . ' ' . the_author_meta('last_name');
-            endif; ?>
+            endif; ?><br>
+            <span class="tags"><?php the_tags(''); ?></span>
             </li>
         <?php endforeach; ?>
         </ul>
