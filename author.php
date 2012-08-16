@@ -40,7 +40,7 @@ query_posts(array('cat' => '-' . $featured->term_id, 'author' => $curauth->ID));
     
         <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
         
-        <?php the_excerpt(); ?>
+        <?php // the_excerpt(); ?>
         
     </div>
     
