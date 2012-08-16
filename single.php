@@ -19,6 +19,15 @@
     <?php endif; ?>
     
     <?php the_content(); ?>
+    
+    <?php if($originalUrl = get_post_custom_values('original_url')): ?>
+    
+        <h4>Original post</h4>
+        <blockquote>
+        <p><?php echo $originalUrl[0]; ?></p>
+        </blockquote>
+
+    <?php endif; ?>
 
     <?php if(get_the_author_meta('description')): ?>
     
