@@ -24,7 +24,7 @@
     
         <h4>Original post</h4>
         <blockquote>
-        <p><?php echo $originalUrl[0]; ?></p>
+        <p><a href="<?php echo $originalUrl[0]; ?>"><?php echo $originalUrl[0]; ?></a></p>
         </blockquote>
 
     <?php endif; ?>
