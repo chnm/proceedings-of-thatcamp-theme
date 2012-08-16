@@ -15,7 +15,7 @@
         <h5 class="date"><?php the_date(); ?></h5>
     <?php else: ?>
         <h4 class="author-name"><?php echo the_author_meta('first_name'); ?> <?php echo the_author_meta('last_name'); ?></h4>
-         <h5><?php the_date(); ?></h5>
+        <?php the_tags(''); ?>
     <?php endif; ?>
     
     <?php the_content(); ?>
