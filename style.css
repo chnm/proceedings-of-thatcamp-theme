@@ -455,6 +455,10 @@ footer {
     text-transform: uppercase;
     margin-bottom: 50px;
     }
+    
+.tags {
+    text-transform: none;
+}
 
 .wp-caption {
     margin: 40px auto;
