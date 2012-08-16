@@ -116,10 +116,6 @@ header nav {
     z-index: 1000;
 }
 
-header nav .menu {
-    float: left;
-}
-
 header nav ul {
     clear: both;
     font-size: 14px;
