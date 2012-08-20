@@ -169,7 +169,7 @@ header nav .social {
         header nav .social li .RSS:before, header nav .social li .email:before {
             font-family: "icomoon";
             display: inline-block;
-            line-height: 39px;
+            line-height: 35px;
             margin: 0 5px 0 0;
             text-indent: 0;
         }
