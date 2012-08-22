@@ -169,7 +169,7 @@ header nav .social {
         header nav .social li .RSS:before, header nav .social li .email:before {
             font-family: "icomoon";
             display: inline-block;
-            line-height: 35px;
+            line-height: 39px;
             margin: 0 5px 0 0;
             text-indent: 0;
         }
@@ -840,8 +840,9 @@ footer {
 
 .post {
     border-bottom: 1px solid #e8e8e8;
-    margin-bottom: 40px;
-    padding-bottom: 40px;
+    margin-left: 40px;
+    margin-bottom: 10px;
+    padding-bottom: 30px;
     }
 
     .post:first-child { border-top: 1px solid #e8e8e8; }
