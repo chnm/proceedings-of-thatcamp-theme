@@ -169,13 +169,13 @@ header nav .social {
         header nav .social li .RSS:before, header nav .social li .email:before {
             font-family: "icomoon";
             display: inline-block;
-            line-height: 35px;
+            line-height: 39px;
             margin: 0 5px 0 0;
             text-indent: 0;
         }
-
+        
         header nav .social li .RSS:before { content: "\28"; }
-
+        
         header nav .social li .email:before { content: "\21"; }
 
 header .current_page_item {
@@ -458,15 +458,10 @@ footer {
     text-transform: uppercase;
     margin-bottom: 50px;
     }
-
+    
 .tags {
     text-transform: none;
-    font-size: 12px;
 }
-
-.tags a:link { color: #8A9900; }
-.tags a:visited { color: #454D00; }
-.tags a:hover, a:active{ color: #006666; }
 
 .wp-caption {
     margin: 40px auto;
