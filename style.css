@@ -936,3 +936,14 @@ footer {
     .uppercase {
     text-transform: uppercase;
     }
+
+    /* Stream
+    ============================*/
+
+    #stream {
+    width: 620px;
+    float: left;
+	padding-left: 120px;
+    margin-top: 65px;
+    border: 0;
+    }
