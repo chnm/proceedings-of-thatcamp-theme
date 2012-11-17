@@ -11,23 +11,14 @@
     <h1><?php the_title(); ?></h1>
     
     <?php if(function_exists('coauthors')): ?>
-        <h4 class="author-name"><?php coauthors(',<br>'); ?><br><span class="tags"><?php the_tags(''); ?></span></h4>
+        <h4 class="author-name"><?php coauthors(',<br>'); ?></h4>
         <h5 class="date"><?php the_date(); ?></h5>
     <?php else: ?>
-        <h4 class="author-name"><?php echo the_author_meta('first_name'); ?> <?php echo the_author_meta('last_name'); ?><br><?php the_tags(''); ?></h4>
-         <h5 class="date"><?php the_date(); ?></h5>
+        <h4 class="author-name"><?php echo the_author_meta('first_name'); ?> <?php echo the_author_meta('last_name'); ?></h4>
+         <h5><?php the_date(); ?></h5>
     <?php endif; ?>
     
     <?php the_content(); ?>
-    
-    <?php if($originalUrl = get_post_custom_values('original_url')): ?>
-    
-        <h4>Original post</h4>
-        <blockquote>
-        <p><a href="<?php echo $originalUrl[0]; ?>"><?php echo $originalUrl[0]; ?></a></p>
-        </blockquote>
-
-    <?php endif; ?>
 
     <?php if(get_the_author_meta('description')): ?>
     

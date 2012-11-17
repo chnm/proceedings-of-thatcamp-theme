@@ -27,7 +27,7 @@ $curauth = (isset($_GET['author_name'])) ? get_user_by('slug', $author_name) : g
 
 <div class="author-posts">
 
-    <h2>Contributions</h2>
+    <h2>Entries</h2>
     
 <?php 
 $featured = get_category_by_slug('featured');
@@ -40,7 +40,7 @@ query_posts(array('cat' => '-' . $featured->term_id, 'author' => $curauth->ID));
     
         <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
         
-        <?php // the_excerpt(); ?>
+        <?php the_excerpt(); ?>
         
     </div>
     
